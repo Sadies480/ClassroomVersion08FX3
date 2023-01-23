@@ -2,16 +2,32 @@ package com.classroom.classroomversion08fx.logic;
 
 import java.util.ArrayList;
 
+/**
+ * The type Regular student.
+ */
 public class RegularStudent extends Student {
     private final ArrayList<Double> grades;
     private final Double examGrade;
 
+    /**
+     * Instantiates a new Regular student.
+     *
+     * @param name      the name
+     * @param major     the major
+     * @param grades    the grades
+     * @param examGrade the exam grade
+     */
     public RegularStudent (String name, String major, ArrayList<Double> grades, Double examGrade) {
         super (name, major);
         this.grades = grades;
         this.examGrade = examGrade;
     }
 
+    /**
+     * Compute grade average double.
+     *
+     * @return the double
+     */
     public Double computeGradeAverage () {
         double worst = this.grades.get (0);
         double sum = 0;

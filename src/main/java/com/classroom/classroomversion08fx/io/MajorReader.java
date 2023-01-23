@@ -6,14 +6,27 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * The type Major reader.
+ */
 public class MajorReader {
 
     private final File majorMapFile;
 
+    /**
+     * Instantiates a new Major reader.
+     *
+     * @param majorMapFile the major map file
+     */
     public MajorReader (File majorMapFile) {
         this.majorMapFile = majorMapFile;
     }
 
+    /**
+     * Read map map.
+     *
+     * @return the map
+     */
     public Map<String, String> readMap () {
 
         String abbreviation;

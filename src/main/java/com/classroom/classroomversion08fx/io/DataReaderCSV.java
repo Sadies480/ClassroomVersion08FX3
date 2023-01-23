@@ -12,10 +12,18 @@ import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Scanner;
 
+/**
+ * The type Data reader csv.
+ */
 public class DataReaderCSV implements CourseDataReader {
 
     private final File CSVFile;
 
+    /**
+     * Instantiates a new Data reader csv.
+     *
+     * @param CSVFile the csv file
+     */
     public DataReaderCSV (File CSVFile) {
         this.CSVFile = CSVFile;
     }

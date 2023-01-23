@@ -61,7 +61,8 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.classroom.classroomversion08fx.MainApp                            </mainClass>
+                                com.classroom.classroomversion08fx.MainApp
+                            </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

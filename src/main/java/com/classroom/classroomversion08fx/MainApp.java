@@ -12,12 +12,28 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.util.Map;
 
+/**
+ * The type Main app.
+ */
 public class MainApp extends Application {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main (String[] args) {
         launch (args);
     }
 
+    /**
+     * Display average grades string.
+     *
+     * @param majorMap       the major map
+     * @param course         the course
+     * @param preGradeFactor the pre grade factor
+     * @return the string
+     */
     public static String displayAverageGrades (Map<String, String> majorMap, Course course, double preGradeFactor) {
 
         int numberOfStudents = course.getStudents ().size ();

@@ -12,10 +12,18 @@ import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Scanner;
 
+/**
+ * The type Data reader text.
+ */
 public class DataReaderText implements CourseDataReader {
 
     private final File TagValueFile;
 
+    /**
+     * Instantiates a new Data reader text.
+     *
+     * @param TagValueFile the tag value file
+     */
     public DataReaderText (File TagValueFile) {
         this.TagValueFile = TagValueFile;
     }
